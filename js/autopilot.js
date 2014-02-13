@@ -18,6 +18,7 @@ function currentHeight() {
 
 function flap() {
 	$(document).mousedown();
+	$(document).trigger('touchstart');
 }
 
 function decide() {
